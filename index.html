@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="pc-api" content="https://punch-card.onrender.com"><meta name="pc-base" content="/punchcard">
+<script>/* PC_API: where the API lives ('' = same origin, i.e. punch-card.onrender.com). PC_BASE: path prefix of the static front end (GitHub Pages project site). */
+(function(){var g=function(n){var m=document.querySelector('meta[name='+n+']');return m?m.content:'';};window.PC_API=g('pc-api');window.PC_BASE=g('pc-base');document.write('<base href="'+window.PC_BASE+'/">');})();</script>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1f2a37"><meta name="color-scheme" content="light dark"><script src="theme.js"></script><script src="colors.js"></script><link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="icon-180.png"><link rel="icon" type="image/png" href="favicon.png"><title>Punch Card</title><link rel="stylesheet" href="app.css"></head>
+<body><header><img class="hdrlogo" src="logo.png" alt="" width="28" height="28"><div class="ttl" id="title">Punch Card</div><div id="hdrRight"></div></header>
+<div id="banner" class="banner" hidden></div>
+<main id="main"><div class="boot" id="boot"><img class="bootlogo" src="logo.png" alt="Punch Card logo" width="120" height="120"><h1>Punch Card</h1><p id="bootMsg">Opening your schedule…</p><div class="bootbar"><i></i></div><small id="bootSub"></small></div></main>
+<nav id="tabs"><button data-t="cal" class="on">📅<span>Calendar</span></button><button data-t="list">⏱<span>Upcoming</span></button><button data-t="share">🔗<span>Share</span></button><button data-t="setup">⚙️<span>Setup</span></button></nav>
+<div id="sheet" class="sheet" hidden><div class="sheetbox" id="sheetbox"></div></div>
+<script src="rotation.js"></script><script src="holidays.js"></script><script src="beta.js"></script><script src="requests.js"></script><script src="app.js"></script><script src="builder.js"></script><script src="rotimport.js"></script><script src="import.js"></script><script src="templates.js"></script><script src="detect.js"></script><script src="design.js"></script><script src="onboard.js"></script></body></html>

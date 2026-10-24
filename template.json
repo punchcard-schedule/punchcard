@@ -1,0 +1,64 @@
+{
+ "id": "plant-2026",
+ "name": "Plant rotation (crews A–D verified against the 2026 Operating Rotation Calendar)",
+ "reconstructed": false,
+ "note": "Crews A–D: 16-day cycle (4 AM, 3 off, 4 PM, 5 off; nights count toward the next day), verified cell-by-cell against the printed 2026 Operating Rotation Calendar (Oct 4 – Dec 26, 2026) and the 2026 PDF text blocks. A/B Days: 4 on / 4 off AM from 2026-10-23 (Luciano confirmed Oct 23), matching the printed A/B AM days in the 2026 and 2027 plant PDFs on all 730 days.",
+ "cycleStart": "2026-10-04",
+ "cycleLength": 16,
+ "shiftTimes": {
+  "AM": [
+   "06:00",
+   "18:00"
+  ],
+  "PM": [
+   "18:00",
+   "06:00"
+  ]
+ },
+ "variants": {
+  "v1": {
+   "A": "..pppp.....aaaa.",
+   "B": "...aaaa...pppp..",
+   "C": "aaa...pppp.....a",
+   "D": "pp.....aaaa...pp"
+  },
+  "v2": {
+   "A": "..pppp.....aaaa.",
+   "B": "...aaaa...pppp..",
+   "C": "aaa...pppp.....a",
+   "D": "pp.....aaaa...pp"
+  },
+  "v3": {
+   "A": "..pppp.....aaaa.",
+   "B": "...aaaa...pppp..",
+   "C": "aaa...pppp.....a",
+   "D": "pp.....aaaa...pp"
+  }
+ },
+ "defaultVariant": "v1",
+ "extra": {
+  "A/B Days": {
+   "start": "2026-10-23",
+   "pattern": "aaaa....",
+   "verified": true
+  },
+  "C/D Days": {
+   "start": "2026-10-04",
+   "pattern": "aaa....a",
+   "verified": true,
+   "note": "from printed calendar"
+  },
+  "A/B Nights": {
+   "start": "2026-10-04",
+   "pattern": "..pppp..",
+   "verified": true,
+   "note": "from printed calendar"
+  },
+  "C/D Nights": {
+   "start": "2026-10-04",
+   "pattern": "pp....pp",
+   "verified": true,
+   "note": "from printed calendar"
+  }
+ }
+}
